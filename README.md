@@ -40,3 +40,5 @@ The following are the commands to use to execute the project:
 2) Install all the requirements using the "pip install -r requirements.txt" command 
 3) Then execute the python file using the command "python -m PyML.pyML". This command will train and build the three models for the spambase.data file which has been provided. To run these models on a different database we can add the data in the code and add the file as well.
 4) To run the test cases python file we need to run the command "python -m PyML.Unittest_cases"
+
+Note: While executing the commands ROC curve graphs for the three models pop-up, close the visualisations to continue execution.
