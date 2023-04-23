@@ -8,9 +8,13 @@ The project has also a module to perform the preprocessing steps like loading th
 The package contains the following modules:
 
 •	util_preprocess.py: This module contains functions for loading and preprocessing the spam data. It also contains functions for splitting the data into k-folds and plotting ROC curves.
+
 •	logistic_regression.py: This module contains the implementation of logistic regression using gradient descent. It contains a function called logistic_regression that performs k-fold cross-validation on the data and trains the model on each fold.
+
 •	naives_bayes.py: This module contains the implementation of the bernoulli naive bayes algorithm. It has a function called train which trains the naives bayes classifier on the data by splitting it into k-folds. This module also contains a function to perform predictions on the test set.
+
 •	decision_tree.py: This module implements the decision tree algorithm for classification. It defines a Node class with methods to create and predict with a decision tree. The create_tree_util() function creates the decision tree recursively, and the split_data() function splits the data into left and right subtrees based on a splitting feature and threshold value. The get_entropy() function calculates the entropy of a given set of labels, and the get_feature_to_split() function returns the splitting feature with the highest information gain. Finally, the predict_label() method predicts the label of a given input feature vector by traversing the decision tree.
+
 •	pyML.py: This module can be imported by any user to train all the above models and visualize the results.
 
 
