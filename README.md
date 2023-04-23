@@ -34,9 +34,9 @@ Following are a few reasons why a module like pyML can be useful to the users:
 
 # Execution
 
-**The following are the commands to use to execute the project:
+The following are the commands to use to execute the project:
 
 1) Make sure that python has been installed on your computer and then navigate to the pyML folder and place all the files in the folder.
 2) Install the prettytables module using "pip install prettytables" command 
 3) Then execute the python file using the command "python -m PyML.pyML". This command will train and build the three models for the spambase.data file which has been provided. To run these models on a different database we can add the data in the code and add the file as well.
-4) To run the test cases python file we need to run the command "python -m PyML.Unittest_cases"**
+4) To run the test cases python file we need to run the command "python -m PyML.Unittest_cases"
